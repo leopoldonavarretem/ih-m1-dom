@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ironhack M1 - DOM - Ejercicio</title>
+</head>
+<body>
+	
+	<form id="formulario">
+		<label>Tu nombre</label>
+		<input name="nombre" type="text">
+
+		<br />
+
+		<label>Tu email</label>
+		<input name="email" type="email">
+
+		<br />
+
+		<label>Tu cumpleaños</label>
+		<input name="birthDate" type="date">
+
+		<br />
+		
+		<input name="dessert" type="checkbox">
+		¿Quieres recibir un helado de cortesía?
+		</input>
+
+		<br />
+
+		<label>Elige un número</label>
+		<select id="decisions">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+		</select>
+
+		<button id="enviar" type="submit">
+			Enviar datos
+		</button>
+
+        <div id="resultados"></div>
+
+	</form>
+    <hr />
+
+    <form id="formulario_2">
+        <label>Nombre de tu perro</label>
+        <input type="text" name="perroNombre" id="">
+        <br>
+
+        <label>Email de tu perro</label>
+        <input type="email" name="email_trabajaperro">
+        <br>
+
+        <label>Compleanos de tu perro</label>
+        <input type="date" name="cumpleanos_perro" id="">
+        <br>
+
+        <input type="checkbox" name="buen_perro">
+        Es un buen perro? </input>
+        <br>
+
+        <label>Elige la raza de tu perro</label>
+        <select id="raza">
+            <option value="chihuahua">Chihuahua</option>
+            <option value="bulldog">Bulldog</option>
+            <option value="dalmata">Dalmata</option>
+        </select>
+
+        <button id="enviar2" type="submit">
+            Enviar perrito
+        </button>
+    </form>
+
+
+	<script src="./ejercicio.js"></script>
+</body>
+</html>
